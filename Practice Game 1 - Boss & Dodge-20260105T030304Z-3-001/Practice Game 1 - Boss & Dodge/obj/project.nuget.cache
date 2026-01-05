@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "dgSpecHash": "VvlSvyZx8BbHz1drToqZWeFQYPhbJMZOXBgDE3KOg0uqPWpEkGU3IYmtob8RsQdoHRrDl3+YVOETtZweJdiilQ==",
+  "success": true,
+  "projectFilePath": "G:\\My Drive\\AMAT\\Practice Game 1 - Boss & Dodge\\BossDodge1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harevak\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\monogame.content.builder.task.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\harevak\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.2.1105\\monogame.framework.desktopgl.3.8.2.1105.nupkg.sha512",
+    "C:\\Users\\harevak\\.nuget\\packages\\monogame.library.sdl\\2.26.5.5\\monogame.library.sdl.2.26.5.5.nupkg.sha512",
+    "C:\\Users\\harevak\\.nuget\\packages\\nvorbis\\0.10.5\\nvorbis.0.10.5.nupkg.sha512",
+    "C:\\Users\\harevak\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512",
+    "C:\\Users\\harevak\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "MonoGame.Framework.DesktopGL 3.8.2.1105 depends on NVorbis (>= 0.10.4) but NVorbis 0.10.4 was not found. An approximate best match of NVorbis 0.10.5 was resolved.",
+      "libraryId": "NVorbis",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "NVorbis 0.10.5 depends on System.Memory (>= 4.5.3) but System.Memory 4.5.3 was not found. An approximate best match of System.Memory 4.6.0 was resolved.",
+      "libraryId": "System.Memory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
